@@ -1,0 +1,3 @@
+/home/manan/c_programs/http-parser/build/CMakeFiles/main.dir
+/home/manan/c_programs/http-parser/build/CMakeFiles/edit_cache.dir
+/home/manan/c_programs/http-parser/build/CMakeFiles/rebuild_cache.dir
