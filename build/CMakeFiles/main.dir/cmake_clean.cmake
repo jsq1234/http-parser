@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/main.c.o.d"
   "CMakeFiles/main.dir/src/parser.c.o"
   "CMakeFiles/main.dir/src/parser.c.o.d"
+  "CMakeFiles/main.dir/src/parser_err.c.o"
+  "CMakeFiles/main.dir/src/parser_err.c.o.d"
   "main"
   "main.pdb"
 )

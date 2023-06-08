@@ -177,6 +177,30 @@ src/parser.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/parser.c.s
 .PHONY : src/parser.c.s
 
+src/parser_err.o: src/parser_err.c.o
+.PHONY : src/parser_err.o
+
+# target to build an object file
+src/parser_err.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/parser_err.c.o
+.PHONY : src/parser_err.c.o
+
+src/parser_err.i: src/parser_err.c.i
+.PHONY : src/parser_err.i
+
+# target to preprocess a source file
+src/parser_err.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/parser_err.c.i
+.PHONY : src/parser_err.c.i
+
+src/parser_err.s: src/parser_err.c.s
+.PHONY : src/parser_err.s
+
+# target to generate assembly for a file
+src/parser_err.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/parser_err.c.s
+.PHONY : src/parser_err.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... src/parser.o"
 	@echo "... src/parser.i"
 	@echo "... src/parser.s"
+	@echo "... src/parser_err.o"
+	@echo "... src/parser_err.i"
+	@echo "... src/parser_err.s"
 .PHONY : help
 
 

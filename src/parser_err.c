@@ -6,9 +6,12 @@ const char* _err_str[] = {
     "Invalid Version",
     "Not terminated by CRLF",
     "Invalid method",
-    "Invalid Seperator",
+    "Invalid/No Seperator",
     "Buffer too small. Consider increasing the size.",
-    "Content-length too large"
+    "Content-length too large",
+    "Space between header field and :",
+    "Expected colon after header field",
+    "Field not recognized/supported"
 };
 
 int err_num = 0;

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/manan/c_programs/http-parser/src/main.c" "CMakeFiles/main.dir/src/main.c.o" "gcc" "CMakeFiles/main.dir/src/main.c.o.d"
   "/home/manan/c_programs/http-parser/src/parser.c" "CMakeFiles/main.dir/src/parser.c.o" "gcc" "CMakeFiles/main.dir/src/parser.c.o.d"
+  "/home/manan/c_programs/http-parser/src/parser_err.c" "CMakeFiles/main.dir/src/parser_err.c.o" "gcc" "CMakeFiles/main.dir/src/parser_err.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
