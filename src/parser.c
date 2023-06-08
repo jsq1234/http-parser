@@ -115,7 +115,7 @@ int parse_http(char *msg, http_request_t *request) {
 int parse_field(char *itr1, size_t left, string_t *header) {
   int by = 0; // how many bytes have we covered;
   if (left > 0 && *itr1 != ' ') {
-    err_num = ERR_COLON;
+    err_num = ERR_INV_SEP;
     return -1;
   }
   if (left > 0 && *itr1 == ' ') {
